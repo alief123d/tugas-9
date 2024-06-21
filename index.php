@@ -30,11 +30,13 @@
 
     echo "name : " . $sungokong->name . "<br>";
     echo "legs : " . $sungokong->leg . "<br>";
-    echo "name : " . $sungokong->cold_blooded . "<br><br>";
+    echo $sungokong->yell();
+    echo "<br>name : " . $sungokong->cold_blooded . "<br><br>";
 
     echo "name : " . $kodok->name . "<br>";
     echo "legs : " . $kodok->leg . "<br>";
-    echo "name : " . $kodok->cold_blooded . "<br><br>";
+    echo $kodok->jump();
+    echo "<br>name : " . $kodok->cold_blooded . "<br><br>";
    ?>
 </body>
 </html>
